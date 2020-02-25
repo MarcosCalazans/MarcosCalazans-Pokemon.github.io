@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercício 1</title>
+        <meta charset="utf-8"/>
+        <style type="text/css">
+            
+            body{
+                font-size: 25px;
+                color: yellow;
+                text-shadow:
+                 2px 0px 0px blue, 
+                 -2px 0px 0px blue, 
+                 0px 2px 0px blue, 
+                 0px -2px 0px blue;
+                background-image:url(pokemon-repeating-background.jpg);
+                background-size: 300px;
+            }
+            
+.card {
+  height: 150px;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 150px;
+  display: block;
+  margin: 18px;
+}
+
+.card:hover{
+box-shadow: 0 0 10px 15px rgba(0, 0, 1, 0.5);
+border-radius: 6px;
+}    
+        
+.card:active {
+  transform: rotateY(180deg);
+}
+            
+.card .side {
+  backface-visibility: hidden;
+  position: absolute;
+  width: 150px;
+  z-index: 4; /* a propriedade z-index só funciona se a "position:absolute" ou "position:relative" estiverem definidas */
+}
+            
+unhide{
+  
+  height: 150px;
+  width: 150px;
+  
+}
+            
+span {
+  display: none;
+  text-align: center;
+  align-content: center;
+  position: absolute;
+  top: 40px;
+}
+        
+div:hover>span {
+  display: block;
+}
+            
+div:active>span {
+  display: none;
+}
+  
+p {
+  display: block;
+  text-align: center;
+  align-content: center;
+  transform: rotateY(180deg);
+  top: 30px;
+  left: 30px;
+  right: 20px;
+  bottom: 30px;
+  opacity: 0.7;
+}
+        
+div p{
+position: absolute;
+z-index: 2;
+}      
+
+img{
+position: absolute
+z-index: 1;
+border-radius: 6px;
+}
+
+       #cx1{
+           float: left;
+        }
+        
+        #cx2{
+            float: left;
+        }
+        
+        #cx3{
+            float: left;
+        }
+        
+        #cx4{
+            float: left;
+        }
+        
+        #cx5{
+            float: left;
+        }
+        
+        #cx6{
+           float: left;
+        }
+        
+        #cx7{
+            float: left;
+        }
+        
+        #cx8{
+           float: left;
+        }
+        
+        #cx9{
+            float: left;
+        }
+        
+        #cx10{
+            float: left;
+        }
+        
+        #cx11{
+            float: left;
+        }
+        
+        #cx12{
+            float: left;
+        }
+        
+        header{
+            
+            width: 1280px;
+            height: 35px;
+            
+        }
+            
+        section{
+            width: 800px;
+            height: 500px;
+            margin: 0 auto;
+        }
+            
+  </style>
+  
+  </head>
+  
+  <body>
+  <header></header>
+  <section>
+      
+  <div class="card" id="cx1">
+      <div class="side"><span>Quem é esse pokemon?</span>
+      <img src="125Hidden.jpg" width="150px" height="150px">
+      </div>
+      <div class="unhide"><p>É o<br>Electabuzz!</p>
+      <img src="125Invertido.jpg" width="150px" height="150px">
+      </div>
+</div>
+      
+<div class="card" id="cx2">
+      <div class="side"><span>Quem é esse pokemon?</span>
+      <img src="122Hidden.jpg" width="150px" height="150px">
+      </div>
+      <div class="unhide"><p>É o Mr Mime!</p>
+      <img src="122Invertido.jpg" width="150px" height="150px">
+      </div>
+</div>
+      
+<div class="card" id="cx3">
+      <div class="side"><span>Quem é esse pokemon?</span>
+      <img src="126Hidden.jpg" width="150px" height="150px">
+      </div>
+      <div class="unhide"><p>É o Magmar!</p>
+      <img src="126Invertido.jpg" width="150px" height="150px">
+      </div>
+</div>
+
+<div class="card" id="cx4">
+      <div class="side"><span>Quem é esse pokemon?</span>
+      <img src="107Hidden.jpg" width="150px" height="150px">
+      </div>
+      <div class="unhide"><p>É o Hitmonchan!</p>
+      <img src="107Invertido.jpg" width="150px" height="150px">
+      </div>
+</div>
+      
+<div class="card" id="cx5">
+      <div class="side"><span>Quem é esse pokemon?</span>
+      <img src="123Hidden.jpg" width="150px" height="150px">
+      </div>
+      <div class="unhide"><p>É o Schyter!</p>
+      <img src="123Invertido.jpg" width="150px" height="150px">
+      </div>
+</div>
+      
+<div class="card" id="cx6">
+      <div class="side"><span>Quem é esse pokemon?</span>
+      <img src="87Hidden.jpg" width="150px" height="150px">
+      </div>
+      <div class="unhide"><p>É o Dewgong!</p>
+      <img src="87Invertido.jpg" width="150px" height="150px">
+      </div>
+</div>
+      
+<div class="card" id="cx7">
+      <div class="side"><span>Quem é esse pokemon?</span>
+      <img src="100Hidden.jpg" width="150px" height="150px">
+      </div>
+      <div class="unhide"><p>É o Voltorb!</p>
+      <img src="100Invertido.jpg" width="150px" height="150px">
+      </div>
+</div>
+
+<div class="card" id="cx8">
+      <div class="side"><span>Quem é esse pokemon?</span>
+      <img src="132Hidden.jpg" width="150px" height="150px">
+      </div>
+      <div class="unhide"><p>É o Ditto!</p>
+      <img src="132Invertido.jpg" width="150px" height="150px">
+      </div>
+</div>
+      
+<div class="card" id="cx9">
+      <div class="side"><span>Quem é esse pokemon?</span>
+      <img src="151Hidden.jpg" width="150px" height="150px">
+      </div>
+      <div class="unhide"><p>É o Mew!</p>
+      <img src="151Invertido.jpg" width="150px" height="150px">
+      </div>
+</div>
+      
+<div class="card" id="cx10">
+      <div class="side"><span>Quem é esse pokemon?</span>
+      <img src="101Hidden.jpg" width="150px" height="150px">
+      </div>
+      <div class="unhide"><p>É o Electrode!</p>
+      <img src="101Invertido.jpg" width="150px" height="150px">
+      </div>
+</div>
+      
+<div class="card" id="cx11">
+      <div class="side"><span>Quem é esse pokemon?</span>
+      <img src="140Hidden.jpg" width="150px" height="150px">
+      </div>
+      <div class="unhide"><p>É o Kabuto!</p>
+      <img src="140Invertido.jpg" width="150px" height="150px">
+      </div>
+</div>
+      
+<div class="card" id="cx12">
+      <div class="side"><span>Quem é esse pokemon?</span>
+      <img src="55Hidden.jpg" width="150px" height="150px">
+      </div>
+      <div class="unhide"><p>É o Golduck!</p>
+      <img src="55Invertido.jpg" width="150px" height="150px">
+      </div>
+</div> 
+      
+</section>
+      
+  </body>
+</html>
